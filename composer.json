@@ -1,0 +1,22 @@
+
+{
+    "name": "rabiul/wp-scroll-master",
+    "description": "An WordPress plugin starter with Vue Js.",
+    "authors": [
+        {
+            "name": "MD. Rabiul Islam Robi",
+            "email": "robizmailbox@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wpsm\\Admin\\": "admin/",
+            "wpsm\\Frontend\\": "frontend/",
+            "wpsm\\Includes\\": "includes/",
+            "wpsm\\Api\\": "api/"
+        }
+    },
+    "require-dev": {
+    }
+}
