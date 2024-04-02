@@ -11,8 +11,8 @@ class Admin {
         // add_action( 'admin_menu', 'add_custom_page_submenu' );
         add_action( 'admin_enqueue_scripts', [ $this, 'register_scripts_styles' ] );
         add_action('init', array($this, 'register_post_types'));
-        add_filter('manage_slideshow_posts_columns', [$this, 'custom_slideshow_columns']); // Updated callback to use $this
-        add_action('manage_slideshow_posts_custom_column', [$this, 'custom_slideshow_column_content'], 10, 2); // Updated callback to use $this
+        add_filter('manage_slideshow_posts_columns', [$this, 'custom_slideshow_columns']); 
+        add_action('manage_slideshow_posts_custom_column', [$this, 'custom_slideshow_column_content'], 10, 2); 
         
     }
 
