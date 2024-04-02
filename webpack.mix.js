@@ -22,4 +22,4 @@ mix.js( 'src/frontend/frontend.js', 'assets/js/frontend.js' ).sourceMaps( false 
 /**
  * Compile Sass
  */
-mix.sass( 'assets/sass/admin.scss', 'assets/css/admin.css' )
+mix.sass( 'assets/sass/admin.scss', 'assets/css/admin.css' );
